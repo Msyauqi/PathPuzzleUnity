@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5022a7de6f6b243bded0ac2142cbf2, type: 3}
+  m_Name: LevelData 9
+  m_EditorClassIdentifier: 
+  levelNumber: 9
+  levelName: Level 9
+  levelPreview: {fileID: 0}
+  startPosition: {x: 0, y: 1}
+  startRotation: 0
+  finishPosition: {x: 7, y: 3}
+  finishRotation: 0
+  paths:
+  - pathType: 1
+    tileSize: 2
+    position: {x: 2, y: 0}
+    rotation: 3
+    skinIndex: 1
+    isMovable: 1
+  - pathType: 0
+    tileSize: 1
+    position: {x: 1, y: 4}
+    rotation: 1
+    skinIndex: 0
+    isMovable: 1
+  - pathType: 1
+    tileSize: 1
+    position: {x: 3, y: 5}
+    rotation: 0
+    skinIndex: 2
+    isMovable: 1
+  - pathType: 1
+    tileSize: 1
+    position: {x: 4, y: 0}
+    rotation: 0
+    skinIndex: 4
+    isMovable: 1
+  - pathType: 0
+    tileSize: 0
+    position: {x: 5, y: 4}
+    rotation: 0
+    skinIndex: 3
+    isMovable: 1
+  - pathType: 1
+    tileSize: 0
+    position: {x: 6, y: 5}
+    rotation: 0
+    skinIndex: 0
+    isMovable: 1
+  - pathType: 1
+    tileSize: 1
+    position: {x: 6, y: 2}
+    rotation: 0
+    skinIndex: 4
+    isMovable: 1
+  - pathType: 1
+    tileSize: 2
+    position: {x: 7, y: 0}
+    rotation: 3
+    skinIndex: 1
+    isMovable: 1
+  - pathType: 2
+    tileSize: 1
+    position: {x: 3, y: 1}
+    rotation: 1
+    skinIndex: 0
+    isMovable: 0
+  - pathType: 2
+    tileSize: 1
+    position: {x: 5, y: 3}
+    rotation: 0
+    skinIndex: 0
+    isMovable: 0
+  targetMoves: 0
+  parScore: 0
+  timeLimit: 150

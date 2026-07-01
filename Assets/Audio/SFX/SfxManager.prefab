@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6511399587116336234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6034495778076812541}
+  - component: {fileID: 1236771953218548050}
+  m_Layer: 0
+  m_Name: SfxManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6034495778076812541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511399587116336234}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1236771953218548050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6511399587116336234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e3fc2c57b42ab4ba7a1c8c05f19bfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  persistAcrossScenes: 0
+  oneShotSource: {fileID: 0}
+  rollingSource: {fileID: 0}
+  buttonClickClip: {fileID: 8300000, guid: c685809ce1915a64690667b674d9aa0c, type: 3}
+  swipePageClip: {fileID: 8300000, guid: e6a6d07750e9cba4c896674cc91632be, type: 3}
+  placeArenaClip: {fileID: 8300000, guid: 3a1317a65acdb264fa891d5d82bad4e0, type: 3}
+  tileDragStartClip: {fileID: 8300000, guid: eba67e66642e8ef41a884ce9c59cc4aa, type: 3}
+  tileDropClip: {fileID: 8300000, guid: 908eb65817c240741838059c16fbacaf, type: 3}
+  invalidMoveClip: {fileID: 8300000, guid: 28a13ad7938f4384f8e473cf56815a1f, type: 3}
+  startSimulationClip: {fileID: 8300000, guid: 9d1ca868ab5ce2d468c5ba5c7d6f9499, type: 3}
+  ballRollingClip: {fileID: 8300000, guid: fa53efaaaeb11494994a3527db817f51, type: 3}
+  levelFailedClip: {fileID: 8300000, guid: 327a2d5a1c8b10f458709c8613ff0566, type: 3}
+  levelCompleteClip: {fileID: 8300000, guid: 49173efdd670eaf4ab6c36dd4efc44eb, type: 3}
+  buySuccessClip: {fileID: 8300000, guid: 3e0b3df3248c3ad4aac84e0f41600832, type: 3}
+  equipSkinClip: {fileID: 8300000, guid: c10ce35c6c57ed34dbbc8276f8c702b5, type: 3}
+  masterSfxVolume: 1
+  useSavedSfxVolume: 1
+  autoBindButtonClicks: 1
+  ignoreButtonClickOnShopBuyButtons: 1
