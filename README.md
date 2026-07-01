@@ -75,7 +75,6 @@ This project is developed for:
 Important folders in this repository:
 
 - `Assets/` - Main project assets, scripts, scenes, prefabs, UI, materials, audio, and gameplay resources.
-- `Assets/deepseek/` - Main custom C# gameplay scripts and system logic.
 - `Assets/Scenes/` - Main menu and AR gameplay scenes.
 - `Assets/Audio/` - Music and sound effect resources.
 - `Assets/Images/` - UI images, icons, and visual assets.
