@@ -67,7 +67,7 @@ This project is developed for:
 
 - iOS
 - Minimum recommended device: iPhone 11
-- Minimum recommended iOS version: iOS 11
+- Minimum recommended iOS version: iOS 16
 - Camera and AR support are required
 
 ## Project Structure
